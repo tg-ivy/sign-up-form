@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./assets/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Helingthon';
+    src: url(./assets/Heligthon\ Signature.otf);
+}
+
+@font-face {
+    font-family: 'Celina';
+    src: url(./assets/Celina\ Diary\ -\ Personal\ Use.otf);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Roboto';
+}
+
+body {
+    display: flex;
+}
+
+.leftside {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.blackbox {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Celina', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    color: white;
+    font-size: 8em;
+}
+
+img {
+    height: 100%;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+fieldset {
+    display: flex;
+    border-style: none;
+}
+
+.forminput {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+label {
+    font-size: 8px;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 0;
+}
