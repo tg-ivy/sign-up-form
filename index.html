@@ -18,35 +18,35 @@
         </section>
         <section>
             <h2>Let's do this!</h2>
-            <form action="" method="post">
+            <form action="" method="post" id="sign-up-form">
                 <fieldset>
                     <div class="forminput">
                         <label for="firstname">FIRST NAME</label>
-                        <input type="text" name="firstname" id="firstname">      
+                        <input type="text" name="firstname" id="firstname" required maxlength="30">      
                     </div>
                     <div class="forminput">
                         <label for="lastname">LAST NAME</label>
-                        <input type="text" name="lastname" id="lastname">  
+                        <input type="text" name="lastname" id="lastname" required maxlength="30">  
                     </div>
                 </fieldset>
                 <fieldset>
                     <div class="forminput">
                         <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required maxlength="50">
                     </div>
                     <div class="forminput">
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="text" name="phone" id="phone" inputmode="numeric">
+                        <input type="text" name="phone" id="phone" inputmode="numeric" minlength="4" maxlength="14">
                     </div>
                 </fieldset>
                 <fieldset>
                     <div class="forminput">
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required minlength="6" maxlength="20">
                     </div>
                     <div class="forminput">
                         <label for="confirmpassword">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirmpassword" id="confirmpassword">  
+                        <input type="password" name="confirmpassword" id="confirmpassword" required minlength="6"maxlength="20">  
                     </div>
                 </fieldset>
             </form>
@@ -55,7 +55,7 @@
             <button>
                 Create Account
             </button>
-            <p>Already have an account? <a href="">Log in.</a></p>
+            <p>Already have an account? <a href="">Log in</a></p>
         </section>
     </div>
 </div>

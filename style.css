@@ -103,8 +103,33 @@ input {
     border-radius: 2px;
 }
 
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 1px 1px 5px black;
+}
+
 button {
     width: 10em;
+    color: white;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
 }
 
 footer {
